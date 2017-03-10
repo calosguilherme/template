@@ -8,8 +8,8 @@ Trabalho desenvolvido durante as disciplinas de:
 
 
 **INTEGRANTES DO GRUPO:** 
-- Nome integrante 1
-- Nome integrante 2<br>
+- Cassiano Kunsch
+- Carlos Guilherme F. Pedroni<br>
 
         
 #Sumário
@@ -17,14 +17,20 @@ Trabalho desenvolvido durante as disciplinas de:
 
 #Gerência de Requisitos
 
-##1	Motivação e Propósito do Sistema 
-escrever os motivos, necessidades e benefícios do projeto.
+##1	Motivação e Propósitodo Sistema <br>
+Com o avanço da tecnologia hoje em dia, as empresas estão cada vez mais investindo em softwares para melhorar o desenvolvimento da própria empresa e também para agilizar o trabalho de muitos de seus empregados. Mas ainda há algumas empresas que não se adaptaram a essas tecnologias. Este sistema visa melhorar e agilizar o trabalho de contagem e verificação de atividades complementares de alunos do curso superior. Com o apoio da equipe pedagógica foi possível desenvolver esse sistema de atividades complementares. Um sistema de informação que auxilie o núcleo pedagógico a controlar as atividades complementares dos alunos do curso superior, facilitando o envio por parte de alunos, agilizando o processo e o deixando mais flexivel.<br>.
 
 ##2	Personas
 descrever os personas de tal forma que descreva as necessidades do usuário pelo sistema.
 
-##3	Minimundo 
-descrição breve sobre o sistema 
+##3	Minimundo<BR> 
+O sistema desenvolvido será para gerenciar e melhorar o processo de controle de atividades complementares. A principal atividade realizada é o envio de atividades dos alunos de maneira eletrônica e de fluxo continuo, a confirmação dos documentos referente as atividades realizadas pela secretaria e a avaliação feita de maneira eletrônica pelo colegiado. As atividades são divididas em Ensino, Pesquisa, Extensão e Representação Estudantil, devendo respeitar o limite máximo de 10 créditos por categoria, os resultados finais emitidos pelo colegiado seram sempre divulgados a cada final de periodo para os alunos poderem recorrer se necessário. .
+Sobre as atividades complementares, deseja-se saber todas as subatividades de cada categoria. De alunos, deseja-se saber o ano em que possivelmente irá se formar. 
+Alunos enviam arquivos. Um aluno pode enviar varios arquivos de diversas atividades complementares, respeitando o maximo de creditos por categoría. Quando um aluno envia um arquivo, o arquivo é salvo no sistema lincando-se a matricula do aluno. Para o aluno, é fundamental saber os creditos ja alcançados e a situação dos pedidos enviados.
+Secretaria verifica os documentos enviados por alunos. A secretaria juntamente com o aluno verifica pelo sistema se todos os arquivos enviados estao de acordo com os arquivos apresentados pelo aluno. Ao fazer a verificaçao dos documentos, é aprovodao ou reprovado pela secretaria.
+Colegiado aprova ou reprova atividades enviadas. O colegiado verifica se o documento enviado está dentro dos criterios de atividades complementares e se a quantidade solicita de créditos condiz com o documento apresentado podendo ser alterada. Caso esteja dentro dos criterios é lançando a pontuaçao da atividade diretamente no sistema. Para o colegiado é importante saber o ano/semestre em que o aluno realizou aquela atividade e que haja uma data especifica para fazer essa verificaçao pois o colegiado precisa abrir um periodo para recursos.
+O coordenador verifica a situaçao de cada aluno. O coordenador tem acesso total ao sistema, podendo ver o que cada aluno ja fez de atividades complementares. Para o coordenado, é importante ter um relatorio que mostra qual a atividade mais e menos feita pelos alunos e tambem os alunos que estao finalizando o curso.
+Consultas sobre as atividades complementares podem ser feitas pela internet, tanto das já realizadas quanto da situação das atividades requisitadas <br>
 
 ##4	Requisitos de Usuários
 ###4.1	Requisitos Funcionais (Histórias de Usuário)
