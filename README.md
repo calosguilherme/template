@@ -35,10 +35,10 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
 ##4	Requisitos de Usuários
 ###4.1	Requisitos Funcionais (Histórias de Usuário)
 
-| ID | Descrição | Prioridade | Pontos |
+| ID | Descrição | Prioridade |
 | --- | --- | --- | --- |
-| RF01 | EU, COMO  **QUEM**, QUERO/GOSTARIA/DEVO/POSSO **O QUE**, PARA QUE/DE/PARA **PORQUE/RESULTADO**. | Must | 2 |
-| RF02 | EU, COMO cliente, POSSO acessar o acerto da locadora PARA QUE consiga ver os filmes disponíveis antes de sair de casa. | Should | 3 |
+| RF01 | Eu, como aluno, desejo atualizar minhas informações sobre atividades complementares a qualquer momento, para ter uma maior flexibilidade na entrega. | Must |
+| RF02 | Eu, como secretária, desejo verificar se os documentos enviados pelo sistema coincidem com os documentos apresentados pelos alunos de maneira online, para não precisar de armazenar papéis de cópias de documentos.| Must |
 
 ###4.2	Requisitos Não Funcionais
 | ID | Descrição | Prioridade | Categoria | Escopo |
