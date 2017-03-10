@@ -39,6 +39,15 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
 | --- | --- | --- | --- |
 | RF01 | Eu, como aluno, desejo atualizar minhas informações sobre atividades complementares a qualquer momento, para ter uma maior flexibilidade na entrega. | Must |
 | RF02 | Eu, como secretária, desejo verificar se os documentos enviados pelo sistema coincidem com os documentos apresentados pelos alunos de maneira online, para não precisar de armazenar papéis de cópias de documentos.| Must |
+| RF03 | Eu, como colegiado, desejo lançar automaticamente os resultados no sistema após a validação, para tornar o processo mais ágil e dessobrecarregar a secretaria.| Must |
+| RF04 | Eu, como colegiado, desejo validar os documentos solicitados pelos alunos diretamente pelo sistema, para atender de forma mais rápida e menos trabalhosa.| Must |
+| RF05 | Eu, como colegiado, desejo verificar a situação de todos os alunos matriculados no curso de sistema de informação, para impedir que alunos perto de se formar não tenham concluído a carga horária complementar.| Must |
+| RF06 | Eu, como colegiado, desejo notificar o aluno sobre datas referentes as atividades complementares e outras informações importantes, para que o mesmo possa recorrer o mais rápido possível caso necessário e fique sempre ciente das coisas.| Could |
+| RF07 | Eu, como colegiado, desejo poder gerar relatório das atividades mais e menos realizadas, para reformular atividades complementares juntamente com colegiado. | Must |
+| RF08 | Eu , como aluno, desejo consultar meus créditos a qualquer momento, para ficar ciente da minha situação atual | Should |
+| RF09 | Eu, como colegiado, desejo inserir/desativar/editar atividades complementares que podem ser realizadas, para disponibilizar novas ou realizar alterações nas existentes. | Must |
+| RF10 | Eu, como aluno, desejo ser sugerido atividades que mais combinem com meu perfil, para facilitar a escolha das atividades que irei realizar. | Want |
+| RF11 | Eu , como aluno, desejo consultar a situação das atividades complementares enviadas a qualquer momento, para me organizar sobre os prazos. | Could |
 
 ###4.2	Requisitos Não Funcionais
 | ID | Descrição | Prioridade | Categoria | Escopo |
