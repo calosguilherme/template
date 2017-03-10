@@ -52,8 +52,8 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
 ###4.2	Requisitos Não Funcionais
 | ID | Descrição | Prioridade | Categoria | Escopo |
 | --- | --- | --- | --- | --- |
-| RNF01 | O sistema deve estar disponível pela Internet para o aluno, a partir dos principais navegadores disponíveis no mercado. | Must | Funcionalidade | Portabilidade |
-| RNF02 | O tempo de resposta de efetuar locação dever ser de no máximo 2 segundos a partir da entrada correta de dados | Should | 3 | Eficincia de Tempo | Funcionalidade |
+| RNF01 | O sistema deve estar disponível pela Internet para o aluno, a partir dos principais navegadores disponíveis no mercado. | Must | Portabilidade | Funcionalidade |
+| RNF02 | O sistema deve conter o logo da instituição, além de suas cores no seu layout | Could | Designer | Sistema |
 
 ###4.3	Regras de Negócio
 | ID | Descrição | Prioridade | 
