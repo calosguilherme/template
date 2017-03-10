@@ -54,6 +54,8 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
 | --- | --- | --- | --- | --- |
 | RNF01 | O sistema deve estar disponível pela Internet para o aluno, a partir dos principais navegadores disponíveis no mercado. | Must | Portabilidade | Funcionalidade |
 | RNF02 | O sistema deve conter o logo da instituição, além de suas cores no seu layout | Could | Designer | Sistema |
+| RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
+| RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
 
 ###4.3	Regras de Negócio
 | ID | Descrição | Prioridade | 
