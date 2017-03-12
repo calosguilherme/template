@@ -21,6 +21,8 @@ Trabalho desenvolvido durante as disciplinas de:
 Com o avanço da tecnologia hoje em dia, as empresas estão cada vez mais investindo em softwares para melhorar o desenvolvimento da própria empresa e também para agilizar o trabalho de muitos de seus empregados. Mas ainda há algumas empresas que não se adaptaram a essas tecnologias. Este sistema visa melhorar e agilizar o trabalho de contagem e verificação de atividades complementares de alunos do curso superior. Com o apoio da equipe pedagógica foi possível desenvolver esse sistema de atividades complementares. Um sistema de informação que auxilie o núcleo pedagógico a controlar as atividades complementares dos alunos do curso superior, facilitando o envio por parte de alunos, agilizando o processo e o deixando mais flexivel.<br>.
 
 ##2	Personas<br>
+| Persona | Descrição |
+| --- | --- |
 Aluno| O aluno necessita de um sistema que fique aberto durante todo o periodo para envio de atividades, além de poder acompanhar sua situação e realizar as solicitações de crédito de maneira online.|
 Secretaria | A secretaria necessita de receber os documentos de comprovação de crédito de forma digital.|
 Cordenador | O cordenador necessita de relatórios referente as atividades e aos alunos.|
