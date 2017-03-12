@@ -56,12 +56,16 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
 | RNF02 | O sistema deve conter o logo da instituição, além de suas cores no seu layout | Could | Designer | Sistema |
 | RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
 | RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
+| RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a cinco segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
 
 ###4.3	Regras de Negócio
 | ID | Descrição | Prioridade | 
 | --- | --- | --- |
-| RN01 | Uma reserva expira quando passadas mais do que 24h de sua comunicação para o cliente. | Must |
-| RN02 | Clientes em atraso não podem efetuar nem locações nem reservas. | Should |
+| RN01 | Cada aluno tem limite maximo de 10(dez) de credito maximo por categoria. | Must |
+| RN02 | O aluno precisa cumprir um total de 15(quinze) creditos para ser aprovado | Must |
+| RN03 | O sistema precisa manter um registro do periodo e dos valores antigos de créditos caso seja alterado futuramente o valor em uma atividade complementar. | Must |
+| RN04 | As atividades enviadas devem ter seus resultados divulgados uma semana antes da data do recurso | Must |
+
 
 
 #Desenvolvimento do Sistema
