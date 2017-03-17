@@ -23,10 +23,10 @@ Com o avanço da tecnologia hoje em dia, as empresas estão cada vez mais invest
 ##2	Personas<br>
 | Persona | Descrição |
 | --- | --- |
-|Aluno| O aluno necessita de um sistema que fique aberto durante todo o periodo para envio de atividades, além de poder acompanhar sua situação e realizar as solicitações de crédito de maneira online.|
-Secretaria | A secretaria necessita de receber os documentos de comprovação de crédito de forma digital.|
-Cordenador | O cordenador necessita de relatórios referente as atividades e aos alunos.|
-Colegiado | O colegiado necessita de fazer as avaliações de maneira digital e integrada com o academico, além de ter todos os dados de maneira digital para realizar a validação.|
+|Aluno | O aluno necessita de um sistema que fique aberto durante todo o periodo para envio de atividades, além de poder acompanhar sua situação e realizar as solicitações de crédito de maneira online.|
+|Secretaria | A secretaria necessita de receber os documentos de comprovação de crédito de forma digital.|
+|Cordenador | O cordenador necessita de relatórios referente as atividades e aos alunos.|
+|Colegiado | O colegiado necessita de fazer as avaliações de maneira digital e integrada com o academico, além de ter todos os dados de maneira digital para realizar a validação.|
 <br>
 
 ##3	Minimundo<BR> 
