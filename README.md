@@ -37,8 +37,9 @@ Colegiado aprova ou reprova atividades enviadas. O colegiado verifica se o docum
 O coordenador verifica a situaçao de cada aluno. O coordenador tem acesso total ao sistema, podendo ver o que cada aluno ja fez de atividades complementares. Para o coordenado, é importante ter um relatorio que mostra qual a atividade mais e menos feita pelos alunos e tambem os alunos que estao finalizando o curso.
 Consultas sobre as atividades complementares podem ser feitas pela internet, tanto das já realizadas quanto da situação das atividades requisitadas <br>
 
-## 4	 Requisitos de Usuários
-### 4.1	Requisitos Funcionais (Histórias de Usuário)
+## 4    Requisitos de Usuários
+### 4.1 Requisistos Funcionais (Histórias de Usuário)
+
 
  | ID | Descrição | Prioridade |
  | --- | --- | --- | --- |
