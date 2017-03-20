@@ -12,24 +12,24 @@ Trabalho desenvolvido durante as disciplinas de:
 - Carlos Guilherme F. Pedroni<br>
 
         
-#Sumário
+# Sumário
 
 
-#Gerência de Requisitos
+# Gerência de Requisitos
 
-##1	Motivação e Propósitodo Sistema <br>
+## 1	Motivação e Propósitodo Sistema <br>
 Com o avanço da tecnologia hoje em dia, as empresas estão cada vez mais investindo em softwares para melhorar o desenvolvimento da própria empresa e também para agilizar o trabalho de muitos de seus empregados. Mas ainda há algumas empresas que não se adaptaram a essas tecnologias. Este sistema visa melhorar e agilizar o trabalho de contagem e verificação de atividades complementares de alunos do curso superior. Com o apoio da equipe pedagógica foi possível desenvolver esse sistema de atividades complementares. Um sistema de informação que auxilie o núcleo pedagógico a controlar as atividades complementares dos alunos do curso superior, facilitando o envio por parte de alunos, agilizando o processo e o deixando mais flexivel.<br>.
 
-##2	Personas<br>
-| Persona | Descrição |
-| --- | --- |
-| Aluno | O aluno necessita de um sistema que fique aberto durante todo o periodo para envio de atividades, além de poder acompanhar sua situação e realizar as solicitações de crédito de maneira online.|
-| Secretaria | A secretaria necessita de receber os documentos de comprovação de crédito de forma digital.|
-| Cordenador | O cordenador necessita de relatórios referente as atividades e aos alunos.|
-| Colegiado | O colegiado necessita de fazer as avaliações de maneira digital e integrada com o academico, além de ter todos os dados de maneira digital para realizar a validação.|
+## 2	Personas<br>
+ | Persona | Descrição |
+ | --- | --- |
+ | Aluno | O aluno necessita de um sistema que fique aberto durante todo o periodo para envio de atividades, além de poder acompanhar sua situação e realizar as solicitações de crédito de maneira online.|
+ | Secretaria | A secretaria necessita de receber os documentos de comprovação de crédito de forma digital.|
+ | Cordenador | O cordenador necessita de relatórios referente as atividades e aos alunos.|
+ | Colegiado | O colegiado necessita de fazer as avaliações de maneira digital e integrada com o academico, além de ter todos os dados de maneira digital para realizar a validação.|
 <br>
 
-##3	Minimundo<BR> 
+## 3	Minimundo<BR> 
 O sistema desenvolvido será para gerenciar e melhorar o processo de controle de atividades complementares. A principal atividade realizada é o envio de atividades dos alunos de maneira eletrônica e de fluxo continuo, a confirmação dos documentos referente as atividades realizadas pela secretaria e a avaliação feita de maneira eletrônica pelo colegiado. As atividades são divididas em Ensino, Pesquisa, Extensão e Representação Estudantil, devendo respeitar o limite máximo de 10 créditos por categoria, os resultados finais emitidos pelo colegiado seram sempre divulgados a cada final de periodo para os alunos poderem recorrer se necessário. Sobre as atividades complementares, deseja-se saber todas as subatividades de cada categoria. De alunos, deseja-se saber o ano em que possivelmente irá se formar. 
 Alunos enviam arquivos. Um aluno pode enviar varios arquivos de diversas atividades complementares, respeitando o maximo de creditos por categoría. Quando um aluno envia um arquivo, o arquivo é salvo no sistema lincando-se a matricula do aluno. Para o aluno, é fundamental saber os creditos ja alcançados e a situação dos pedidos enviados.
 Secretaria verifica os documentos enviados por alunos. A secretaria juntamente com o aluno verifica pelo sistema se todos os arquivos enviados estao de acordo com os arquivos apresentados pelo aluno. Ao fazer a verificaçao dos documentos, é aprovodao ou reprovado pela secretaria.
@@ -37,50 +37,50 @@ Colegiado aprova ou reprova atividades enviadas. O colegiado verifica se o docum
 O coordenador verifica a situaçao de cada aluno. O coordenador tem acesso total ao sistema, podendo ver o que cada aluno ja fez de atividades complementares. Para o coordenado, é importante ter um relatorio que mostra qual a atividade mais e menos feita pelos alunos e tambem os alunos que estao finalizando o curso.
 Consultas sobre as atividades complementares podem ser feitas pela internet, tanto das já realizadas quanto da situação das atividades requisitadas <br>
 
-##4	Requisitos de Usuários
-###4.1	Requisitos Funcionais (Histórias de Usuário)
+## 4	 Requisitos de Usuários
+### 4.1	Requisitos Funcionais (Histórias de Usuário)
 
-| ID | Descrição | Prioridade |
-| --- | --- | --- | --- |
-| RF01 | Eu, como aluno, desejo atualizar minhas informações sobre atividades complementares a qualquer momento, para ter uma maior flexibilidade na entrega. | Must |
-| RF02 | Eu, como secretária, desejo verificar se os documentos enviados pelo sistema coincidem com os documentos apresentados pelos alunos de maneira online, para não precisar de armazenar papéis de cópias de documentos.| Must |
-| RF03 | Eu, como colegiado, desejo lançar automaticamente os resultados no sistema após a validação, para tornar o processo mais ágil e dessobrecarregar a secretaria.| Must |
-| RF04 | Eu, como colegiado, desejo validar os documentos solicitados pelos alunos diretamente pelo sistema, para atender de forma mais rápida e menos trabalhosa.| Must |
-| RF05 | Eu, como colegiado, desejo verificar a situação de todos os alunos matriculados no curso de sistema de informação, para impedir que alunos perto de se formar não tenham concluído a carga horária complementar.| Must |
-| RF06 | Eu, como colegiado, desejo notificar o aluno sobre datas referentes as atividades complementares e outras informações importantes, para que o mesmo possa recorrer o mais rápido possível caso necessário e fique sempre ciente das coisas.| Could |
-| RF07 | Eu, como colegiado, desejo poder gerar relatório das atividades mais e menos realizadas, para reformular atividades complementares juntamente com colegiado. | Must |
-| RF08 | Eu , como aluno, desejo consultar meus créditos a qualquer momento, para ficar ciente da minha situação atual | Should |
-| RF09 | Eu, como colegiado, desejo inserir/desativar/editar atividades complementares que podem ser realizadas, para disponibilizar novas ou realizar alterações nas existentes. | Must |
-| RF10 | Eu, como aluno, desejo ser sugerido atividades que mais combinem com meu perfil, para facilitar a escolha das atividades que irei realizar. | Want |
-| RF11 | Eu , como aluno, desejo consultar a situação das atividades complementares enviadas a qualquer momento, para me organizar sobre os prazos. | Could |
+ | ID | Descrição | Prioridade |
+ | --- | --- | --- | --- |
+ | RF01 | Eu, como aluno, desejo atualizar minhas informações sobre atividades complementares a qualquer momento, para ter uma maior flexibilidade na entrega. | Must |
+ | RF02 | Eu, como secretária, desejo verificar se os documentos enviados pelo sistema coincidem com os documentos apresentados pelos alunos de maneira online, para não precisar de armazenar papéis de cópias de documentos.| Must |
+ | RF03 | Eu, como colegiado, desejo lançar automaticamente os resultados no sistema após a validação, para tornar o processo mais ágil e dessobrecarregar a secretaria.| Must |
+ | RF04 | Eu, como colegiado, desejo validar os documentos solicitados pelos alunos diretamente pelo sistema, para atender de forma mais rápida e menos trabalhosa.| Must |
+ | RF05 | Eu, como colegiado, desejo verificar a situação de todos os alunos matriculados no curso de sistema de informação, para impedir que alunos perto de se formar não tenham concluído a carga horária complementar.| Must |
+ | RF06 | Eu, como colegiado, desejo notificar o aluno sobre datas referentes as atividades complementares e outras informações importantes, para que o mesmo possa recorrer o mais rápido possível caso necessário e fique sempre ciente das coisas.| Could |
+ | RF07 | Eu, como colegiado, desejo poder gerar relatório das atividades mais e menos realizadas, para reformular atividades complementares juntamente com colegiado. | Must |
+ | RF08 | Eu , como aluno, desejo consultar meus créditos a qualquer momento, para ficar ciente da minha situação atual | Should |
+ | RF09 | Eu, como colegiado, desejo inserir/desativar/editar atividades complementares que podem ser realizadas, para disponibilizar novas ou realizar alterações nas existentes. | Must |
+ | RF10 | Eu, como aluno, desejo ser sugerido atividades que mais combinem com meu perfil, para facilitar a escolha das atividades que irei realizar. | Want |
+ | RF11 | Eu , como aluno, desejo consultar a situação das atividades complementares enviadas a qualquer momento, para me organizar sobre  os prazos. | Could |
 
-###4.2	Requisitos Não Funcionais
-| ID | Descrição | Prioridade | Categoria | Escopo |
-| --- | --- | --- | --- | --- |
-| RNF01 | O sistema deve estar disponível pela Internet para o aluno, a partir dos principais navegadores disponíveis no mercado. | Must | Portabilidade | Funcionalidade |
-| RNF02 | O sistema deve conter o logo da instituição, além de suas cores no seu layout | Could | Designer | Sistema |
-| RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
-| RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
-| RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a cinco segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
+### 4.2	Requisitos Não Funcionais
+ | ID | Descrição | Prioridade | Categoria | Escopo |
+ | --- | --- | --- | --- | --- |
+ | RNF01 | O sistema deve estar disponível pela Internet para o aluno, a partir dos principais navegadores disponíveis no mercado. | Must | Portabilidade | Funcionalidade |
+ | RNF02 | O sistema deve conter o logo da instituição, além de suas cores no seu layout | Could | Designer | Sistema |
+ | RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
+ | RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
+ | RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a cinco segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
 
-###4.3	Regras de Negócio
-| ID | Descrição | Prioridade | 
-| --- | --- | --- |
-| RN01 | Cada aluno tem limite maximo de 10(dez) de credito maximo por categoria. | Must |
-| RN02 | O aluno precisa cumprir um total de 15(quinze) creditos para ser aprovado | Must |
-| RN03 | O sistema precisa manter um registro do periodo e dos valores antigos de créditos caso seja alterado futuramente o valor em uma atividade complementar. | Must |
-| RN04 | As atividades enviadas devem ter seus resultados divulgados uma semana antes da data do recurso | Must |
+### 4.3	Regras de Negócio
+ | ID | Descrição | Prioridade | 
+ | --- | --- | --- |
+ | RN01 | Cada aluno tem limite maximo de 10(dez) de credito maximo por categoria. | Must |
+ | RN02 | O aluno precisa cumprir um total de 15(quinze) creditos para ser aprovado | Must |
+ | RN03 | O sistema precisa manter um registro do periodo e dos valores antigos de créditos caso seja alterado futuramente o valor em uma atividade complementar. | Must |
+ | RN04 | As atividades enviadas devem ter seus resultados divulgados uma semana antes da data do recurso | Must |
 
 
 
-#Desenvolvimento do Sistema
-##1.    Análise de Sistemas:
-###1.1  Subsistemas
+# Desenvolvimento do Sistema
+## 1.    Análise de Sistemas:
+### 1.1  Subsistemas
 inserir diagrama dos subsistemas UML
-###1.2  Modelagem de Casos de uso 
+### 1.2  Modelagem de Casos de uso 
 inserir diagramas dos Casos de Uso (UML) e descrever brevemente.
 
-###1.3  Modelagem Estrutural (Modelo Conceitual)
+### 1.3  Modelagem Estrutural (Modelo Conceitual)
 ** ATENÇO: USAR Notação Entidade-Relacionamentos se estiver fazendo BD2 e o diagrama de classes se estiver fazendo Projeto de Sistemas**
 ![Alt text](https://github.com/calosguilherme/trab01/blob/master/conceitual.jpg?raw=true "Modelo Conceitual")
 ###1.4  Modelagem Comportamental
