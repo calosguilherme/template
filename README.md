@@ -82,7 +82,7 @@ inserir diagramas dos Casos de Uso (UML) e descrever brevemente.
 
 ### 1.3  Modelagem Estrutural (Modelo Conceitual)
 ** ATENÇO: USAR Notação Entidade-Relacionamentos se estiver fazendo BD2 e o diagrama de classes se estiver fazendo Projeto de Sistemas**
-![Alt text](https://github.com/calosguilherme/trab01/blob/master/conceitual.jpg?raw=true "Modelo Conceitual")
+![Alt text](https://github.com/Cassianokunsch/template/blob/master/conceitual.jpg?raw=true "Modelo Conceitual")
 ###1.4  Modelagem Comportamental
 inserir principais diagramas comportamentais da análise (principalmente, estados)
 ###1.5  Dicionário de Dados
@@ -126,8 +126,9 @@ OBS: Essa visão não tem nada a ver com Views de Banco de Dados
 __OBS DE BD2__: neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
+#### Caso queira acessar o modelo completo clique [AQUI] (https://github.com/Cassianokunsch/template/blob/master/CA.pdf)
+![Alt text](https://github.com/Cassianokunsch/template/blob/master/c1.PNG?raw=true https://github.com/Cassianokunsch/template/blob/master/c2.PNG?raw=true "Title")
 
-![Alt text](https://github.com/discipbd2/topicos-trabalho/blob/master/balsamiq.png?raw=true "Title")
 #####Projeto da Interação Humana
 apresentar diagrama de classes da IU com controladores e diagrama de sequências. Apresentar diagrama com estados de navegação.
 ####2.2.3.  Projeto da Persistência de Dados
@@ -174,7 +175,7 @@ O padrão foi utilizado para resolver o problema de .....
         b) inclusão das instruções de inserção dos dados nas referidas tabelas
         c) inclusão das instruções para execução de outros procedimentos necessários
 
-###3.5	TABELAS E PRINCIPAIS CONSULTAS<br>
+###3.5	TABELAS E PRINCIPAIS cSULTAS<br>
 ####3.5.1	GERACAO DE DADOS (MÍNIMO DE 1,5 MILHÃO DE REGISTROS PARA PRINCIPAL RELAÇAO)<br>
     Data de Entrega: (Data a ser definida)
 <br>
