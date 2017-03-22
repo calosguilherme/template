@@ -1,4 +1,4 @@
-# TRABALHO INTEGRADO: Título do trabalho
+# TRABALHO INTEGRADO: Atividade Complementares
 
 Trabalho desenvolvido durante as disciplinas de:
 - Banco de Dados 2, 
@@ -95,7 +95,7 @@ inserir principais diagramas comportamentais da análise (principalmente, estado
 ## 2.    Projeto de Sistemas:
 ### 2.1  Projeto Arquitetural 
 #### 2.1.1   Plataforma de Implementação e Tecnologias
-O sistema será web para facilitar o acesso para o aluno visto a necessidade de acesso a qualquer momento e por qualquer plataforma.
+O sistema será desenvolvido utilizando C#, Css, JavaScript e Bootstrap, essas ferramentas foram escolhidas pois o sistema será web para facilitar o acesso para o aluno visto a necessidade de acesso a qualquer momento e por qualquer plataforma.
 
 #### 2.1.2   Atributos de Qualidade e Táticas
  CATEGORIAS | RNF'S | TÁTICAS | 
@@ -120,12 +120,6 @@ apresentar diagrama de classes do domínio
 apresentar diagramas de sequência e mapeamento dos casos de uso para classes
 #### 2.2.2.  Projeto da Interface com Usuário
 ##### Projeto da Visão
-apresentar protótipos de telas e diagramas de classes UML (caso realizado)
-OBS: Essa visão não tem nada a ver com Views de Banco de Dados
-
-__OBS DE BD2__: neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
-
-Sugestão: https://balsamiq.com/products/mockups/<br>
 #### Caso queira acessar o modelo completo clique [AQUI](https://github.com/Cassianokunsch/template/blob/master/CA.pdf)
 ![Alt text](https://github.com/Cassianokunsch/template/blob/master/c1.PNG?raw=true "Mockup")
 
