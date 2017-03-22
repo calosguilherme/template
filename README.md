@@ -60,7 +60,8 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
  | RNF02 | O sistema deve conter o logo da instituição, além de suas cores no seu layout | Could | Designer | Sistema |
  | RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
  | RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
- | RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a cinco segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
+ | RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a trinta segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
+ | RNF06 | O sistema deve controlar o acesso às funcionalidades. Funcionalidades de validação de documentos devem ser restritas a secretaria. Funcionalidades de gerencia de pontuação deve ser restritas ao colegiado, etc |Must| Segurança de Acesso | Sistema |
 
 ### 4.3	Regras de Negócio
  | ID | Descrição | Prioridade | 
@@ -75,7 +76,7 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
 # Desenvolvimento do Sistema
 ## 1.    Análise de Sistemas:
 ### 1.1  Subsistemas
-inserir diagrama dos subsistemas UML
+|inserir diagrama dos subsistemas UML
 ### 1.2  Modelagem de Casos de uso 
 inserir diagramas dos Casos de Uso (UML) e descrever brevemente.
 
@@ -94,12 +95,17 @@ inserir principais diagramas comportamentais da análise (principalmente, estado
 ##2.    Projeto de Sistemas:
 ###2.1  Projeto Arquitetural 
 ####2.1.1   Plataforma de Implementação e Tecnologias
-descrever tecnologias usadas no sistema, justificando cada uma delas com base no contexto
+O sistema será web para facilitar o acesso para o aluno visto a necessidade de acesso a qualquer momento e por qualquer plataforma.
 
 ####2.1.2   Atributos de Qualidade e Táticas
  CATEGORIAS | RNF'S | TÁTICAS | 
 | --- | --- | --- |
-| Facilidade de Operação | RNF03, RNF08| Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente. Para tal, as interfaces do sistema devem permitir, sempre que possível, a entrada por meio de seleção ou leitura de código de barras ao invés da digitação de campos. | 
+| Facilidade de Operação | RNF05 | Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente. Para tal, as interfaces do sistema devem permitir, sempre que possível, a entrada por meio de seleção ou leitura de código de barras ao invés da digitação de campos. | 
+| Segurança de Acesso| 	RNF06 | Identificar usuários usando login e autenticá-los por meio de senha. Dividir as permissões no sistema através de grupo de usuários|
+| Portabilidade | RNF01 RNF04 | No desenvolvimento só seram utilizadas ferramentas suportadas pelos navegadores mais populares, não utilizar ferramentas como JAVA e outras que atualmente nas versões mais atuais dos navegadores não possui suporte. O site deverá ter layout pre-definidos pra telas de resoluções equivalentes a Desktop, Celular e Tablet |
+| Designer | RNF02 | Será utilizado as cores do instituto no Layout do site e suas logos |
+| Interoperabilidade | RNF03 | Será utilizado uma aplicação que enviara a mensagem escrita no sistema através de um email próprio do sistema para o email de um usuário ou grupo de usuários|
+
 
 
 ####2.1.3   Arquitetura de Software
