@@ -92,12 +92,12 @@ inserir principais diagramas comportamentais da análise (principalmente, estado
     CLIENTE: classe/entidade que representa as informações relativas ao cliente<br>
     CPF: atributo que representa o número de Cadastro de Pessoa Física para cada cliente da empresa.<br>
     
-##2.    Projeto de Sistemas:
-###2.1  Projeto Arquitetural 
-####2.1.1   Plataforma de Implementação e Tecnologias
+## 2.    Projeto de Sistemas:
+### 2.1  Projeto Arquitetural 
+#### 2.1.1   Plataforma de Implementação e Tecnologias
 O sistema será web para facilitar o acesso para o aluno visto a necessidade de acesso a qualquer momento e por qualquer plataforma.
 
-####2.1.2   Atributos de Qualidade e Táticas
+#### 2.1.2   Atributos de Qualidade e Táticas
  CATEGORIAS | RNF'S | TÁTICAS | 
 | --- | --- | --- |
 | Facilidade de Operação | RNF05 | Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente. Para tal, as interfaces do sistema devem permitir, sempre que possível, a entrada por meio de seleção ou leitura de código de barras ao invés da digitação de campos. | 
@@ -108,26 +108,26 @@ O sistema será web para facilitar o acesso para o aluno visto a necessidade de 
 
 
 
-####2.1.3   Arquitetura de Software
+#### 2.1.3   Arquitetura de Software
 apresentar diagrama UML da arquitetura do sistema. justificar as decisões tomadas.
 
-###2.2. Projeto Detalhado
+### 2.2. Projeto Detalhado
 OBS: repetir as seções abaixo para cada subsistema
-####2.2.1.   Projeto da Lógica de Negócio
-#####Projeto do Domínio
+#### 2.2.1.   Projeto da Lógica de Negócio
+##### Projeto do Domínio
 apresentar diagrama de classes do domínio
-#####Projeto da Aplicação
+##### Projeto da Aplicação
 apresentar diagramas de sequência e mapeamento dos casos de uso para classes
-####2.2.2.  Projeto da Interface com Usuário
-#####Projeto da Visão
+#### 2.2.2.  Projeto da Interface com Usuário
+##### Projeto da Visão
 apresentar protótipos de telas e diagramas de classes UML (caso realizado)
 OBS: Essa visão não tem nada a ver com Views de Banco de Dados
 
 __OBS DE BD2__: neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
-#### Caso queira acessar o modelo completo clique [AQUI] (https://github.com/Cassianokunsch/template/blob/master/CA.pdf)
-![Alt text](https://github.com/Cassianokunsch/template/blob/master/c1.PNG?raw=true https://github.com/Cassianokunsch/template/blob/master/c2.PNG?raw=true "Title")
+### Caso queira acessar o modelo completo clique [AQUI] (https://github.com/Cassianokunsch/template/blob/master/CA.pdf)
+![Alt text] (https://github.com/Cassianokunsch/template/blob/master/c1.PNG?raw=true https://github.com/Cassianokunsch/template/blob/master/c2.PNG?raw=true "Title")
 
 #####Projeto da Interação Humana
 apresentar diagrama de classes da IU com controladores e diagrama de sequências. Apresentar diagrama com estados de navegação.
