@@ -126,8 +126,8 @@ OBS: Essa visão não tem nada a ver com Views de Banco de Dados
 __OBS DE BD2__: neste ponto a codificação não e necessária, somente as ideias de telas devem ser criadas, o princípio aqui é pensar na criação da interface para identificar possíveis informações a serem armazenadas ou descartadas <br>
 
 Sugestão: https://balsamiq.com/products/mockups/<br>
-### Caso queira acessar o modelo completo clique [AQUI] (https://github.com/Cassianokunsch/template/blob/master/CA.pdf)
-![Alt text] (https://github.com/Cassianokunsch/template/blob/master/c1.PNG?raw=true https://github.com/Cassianokunsch/template/blob/master/c2.PNG?raw=true "Title")
+### Caso queira acessar o modelo completo clique ![AQUI] (https://github.com/Cassianokunsch/template/blob/master/CA.pdf)
+![Alt text](https://github.com/Cassianokunsch/template/blob/master/c1.PNG?raw=true "Mockup")
 
 #####Projeto da Interação Humana
 apresentar diagrama de classes da IU com controladores e diagrama de sequências. Apresentar diagrama com estados de navegação.
