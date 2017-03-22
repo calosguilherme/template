@@ -142,22 +142,74 @@ O padrão foi utilizado para resolver o problema de .....
 O padrão foi utilizado para resolver o problema de .....
 
 
-##3.    Banco de Dados (BD)
+## 3.    Banco de Dados (BD)
 
 
-###3.1 Decisões do Projeto 
-    [atributo]: [descrição da decisão]
-    
-    EXEMPLO:
-    a) Campo endereço: em nosso projeto optamos por um campo multivalorado e composto, pois a empresa 
-    pode possuir para cada departamento mais de uma localização... 
-    b) justifique!
+### 3.1 Decisões do Projeto 
+ **Tabela Aluno com Herança de Pessoa:** em nosso projeto optamos por utilizar a Herança do campo pessoa pois caso se necessário realizar relatórios ou consultas que envolvam além dos alunos os administradores não precisar "mesclar" duas tabelas para realizar essas operações.<br>
+ **Campo valorCredito na Tabela Atividade:** foi optado por transformar uma tabela onde contia os valores dos creditos em um atributo na tabela atividade, visto que a quantidade de referencias que a tabela anterior iria fazer não ser em grande quantidade e acabar gerando um impacto negativo em vez de fornecer algum beneficio.<br>
 
 
-###3.2	Modelo Lógico<br>
-###3.3	MODELO FÍSICO<br>
-###3.4	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
-####3.4.1 DETALHAMENTO DAS INFORMAÇÕES
+### 3.2	Modelo Lógico<br>
+![Alt text](https://github.com/Cassianokunsch/template/blob/master/logic.jpg?raw=true  "Modelo Logico")
+
+### 3.3	MODELO FÍSICO<br>
+        
+        CREATE TABLE CATEGORIA (
+	codCat INTEGER PRIMARY KEY,
+	tipoCat VARCHAR(60)
+	);
+
+	CREATE TABLE ATIVIDADE (
+	valorCredito INTEGER,
+	anoRegistro DATE,
+	codAtividade INTEGER PRIMARY KEY,
+	tipoAtividade VARCHAR(100),
+	codCat INTEGER,
+	unidAvali VARCHAR(150),
+	FOREIGN KEY(codCat) REFERENCES CATEGORIA (codCat)
+	);
+
+	CREATE TABLE ALUNO (
+	dtConclusao DATE,
+	creditos INTEGER,
+	matricula VARCHAR(15) PRIMARY KEY,
+	codPessoa INTEGER,
+	FOREIGN KEY(codPessoa) REFERENCES PESSOA (codPessoa)
+	);
+
+	CREATE TABLE ARQUIVO (
+	codArquivo INTEGER PRIMARY KEY,
+	observacao VARCHAR(300),
+	creditoAtividade INTEGER,
+	arquivoDocumento VARCHAR(300),
+	dtRealizada DATE,
+	matricula VARCHAR(15),
+	codAtividade INTEGER
+	);
+
+	CREATE TABLE PESSOA (
+	senha VARCHAR(30),
+	codPessoa INTEGER PRIMARY KEY,
+	nome VARCHAR(60),
+	email VARCHAR(60),
+	permissõesADM BOOLEAN,
+	telefone VARCHAR(15)
+	);
+
+	CREATE TABLE ADICIONA (
+	codAtividade INTEGER,
+	codPessoa INTEGER,
+	codCat INTEGER,
+	PRIMARY KEY(codAtividade,codPessoa,codCat)
+	);
+	
+	ALTER TABLE ARQUIVO ADD FOREIGN KEY(matricula) REFERENCES ALUNO (matricula);
+	ALTER TABLE ARQUIVO ADD FOREIGN KEY(codAtividade) REFERENCES ATIVIDADE (codAtividade);
+
+        
+### 3.4	INSERT APLICADO NAS TABELAS DO BANCO DE DADOS<br>
+#### 3.4.1 DETALHAMENTO DAS INFORMAÇÕES
         Detalhamento sobre as informações e processo de obtenção ou geração dos dados.
         Referenciar todas as fontes referentes a:
         a) obtenção dos dados
