@@ -38,11 +38,9 @@ O coordenador verifica a situaçao de cada aluno. O coordenador tem acesso total
 Consultas sobre as atividades complementares podem ser feitas pela internet, tanto das já realizadas quanto da situação das atividades requisitadas <br>
 
 ## 4    Requisitos de Usuários
-### 4.1 Requisistos Funcionais (Histórias de Usuário)
-
-
+### 4.1 Requisistos Funcionais (Histórias de Usuário)<br>
  | ID | Descrição | Prioridade |
- | --- | --- | --- | --- |
+ | --- | --- | --- |
  | RF01 | Eu, como aluno, desejo atualizar minhas informações sobre atividades complementares a qualquer momento, para ter uma maior flexibilidade na entrega. | Must |
  | RF02 | Eu, como secretária, desejo verificar se os documentos enviados pelo sistema coincidem com os documentos apresentados pelos alunos de maneira online, para não precisar de armazenar papéis de cópias de documentos.| Must |
  | RF03 | Eu, como colegiado, desejo lançar automaticamente os resultados no sistema após a validação, para tornar o processo mais ágil e dessobrecarregar a secretaria.| Must |
