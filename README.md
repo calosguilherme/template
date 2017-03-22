@@ -123,14 +123,14 @@ apresentar diagramas de sequência e mapeamento dos casos de uso para classes
 #### Caso queira acessar o modelo completo clique [AQUI](https://github.com/Cassianokunsch/template/blob/master/CA.pdf)
 ![Alt text](https://github.com/Cassianokunsch/template/blob/master/c1.PNG?raw=true "Mockup")
 
-#####Projeto da Interação Humana
+##### Projeto da Interação Humana
 apresentar diagrama de classes da IU com controladores e diagrama de sequências. Apresentar diagrama com estados de navegação.
-####2.2.3.  Projeto da Persistência de Dados
+#### 2.2.3.  Projeto da Persistência de Dados
 apresentar classes de acesso ao banco de dados. apresentar diagramas de sequência.
 
-####2.4.   Padrões
-#####Padrões Arquiteturais
-#####Padrões de Projeto
+#### 2.4.   Padrões
+##### Padrões Arquiteturais
+##### Padrões de Projeto
 
 No diagrama abaixo é destacado o padrão de projeto método fábrica que foi utilizado para melhorar a coesão e diminiuir o acoplamento entre as clases do sistema. O pode-se notar a classe FabricaDeFormatos cria os objetos FormatoPng, FormatoJpeg e FormatoGif tirando a dependencia entre a classes Main e essas classes. Vale ressaltar que o padrão utiliza um Interface Formato para diminiuir o acoplamento entre as classes.
 
