@@ -61,7 +61,7 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
  | RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
  | RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
  | RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a trinta segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
- | RNF06 | O sistema deve controlar o acesso às funcionalidades. Funcionalidades de validação de documentos devem ser restritas a secretaria. Funcionalidades de gerencia de pontuação deve ser restritas ao colegiado, etc |Must| Segurança de Acesso | Sistema |
+ | RNF06 | O sistema deve  ter autenticação. |Must| Segurança de Acesso | Sistema |
 
 ### 4.3	Regras de Negócio
  | ID | Descrição | Prioridade | 
@@ -100,7 +100,7 @@ O sistema será desenvolvido utilizando C#, Css, JavaScript e Bootstrap, essas f
 #### 2.1.2   Atributos de Qualidade e Táticas
  CATEGORIAS | RNF'S | TÁTICAS | 
 | --- | --- | --- |
-| Facilidade de Operação | RNF05 | Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente. Para tal, as interfaces do sistema devem permitir, sempre que possível, a entrada por meio de seleção ou leitura de código de barras ao invés da digitação de campos. | 
+| Facilidade de Operação | RNF05 | Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente.| 
 | Segurança de Acesso| 	RNF06 | Identificar usuários usando login e autenticá-los por meio de senha. Dividir as permissões no sistema através de grupo de usuários|
 | Portabilidade | RNF01 RNF04 | No desenvolvimento só seram utilizadas ferramentas suportadas pelos navegadores mais populares, não utilizar ferramentas como JAVA e outras que atualmente nas versões mais atuais dos navegadores não possui suporte. O site deverá ter layout pre-definidos pra telas de resoluções equivalentes a Desktop, Celular e Tablet |
 | Designer | RNF02 | Será utilizado as cores do instituto no Layout do site e suas logos |
