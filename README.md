@@ -109,7 +109,8 @@ O sistema será desenvolvido utilizando C#, Css, JavaScript e Bootstrap, essas f
 
 
 #### 2.1.3   Arquitetura de Software
-apresentar diagrama UML da arquitetura do sistema. justificar as decisões tomadas.
+Foi decidido dividir o sistema em dois subsistema, o subsistema SubAluno onde os alunos teriam acesso a uma interface propria e  somente as informações necessarias para o mesmo e o controleAtividade onde somente os administradores teriam acesso a uma intercafe propria e as informações pertinentes aos mesmo, foi decidido reparoveitar o utilitarioPersistencias para evitar a reescrita de funções que seriam utilizada em ambos as fazendo somente uma vez. Foi utilizado o utilitarioEmail para de maneira a parte do sistema encaminhar as notificações escritas dentro do sistemas para os emails dos destinatarios das notificações
+![Alt text](https://github.com/Cassianokunsch/template/blob/master/proj.PNG?raw=true "Modelo Conceitual")
 
 ### 2.2. Projeto Detalhado
 OBS: repetir as seções abaixo para cada subsistema
