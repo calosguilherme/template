@@ -61,7 +61,9 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
  | RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
  | RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
  | RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a trinta segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
- | RNF06 | O sistema deve  ter autenticação. |Must| Segurança de Acesso | Sistema |
+ | RNF06 | O sistema deve ter autenticação. |Must| Segurança de Acesso | Sistema |
+ | RNF07 | O sistema deve evitar SQL injection . |Must| Segurança de Banco | Segurança |
+ | RNF08 | O site deve assegurar a troca informações entre o sistema e os personas. |Must| Segurança de dados | Segurança |
 
 ### 4.3	Regras de Negócio
  | ID | Descrição | Prioridade | 
@@ -100,13 +102,13 @@ O sistema será desenvolvido utilizando C#, Css, JavaScript e Bootstrap, essas f
 #### 2.1.2   Atributos de Qualidade e Táticas
  CATEGORIAS | RNF'S | TÁTICAS | 
 | --- | --- | --- |
-| Facilidade de Operação | RNF05 | Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente.| 
+| Facilidade de Operação | RNF05 | Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente. Para melhorar o tempo será feito um treinamento das funcionalidades| 
 | Segurança de Acesso| 	RNF06 | Identificar usuários usando login e autenticá-los por meio de senha. Dividir as permissões no sistema através de grupo de usuários|
-| Portabilidade | RNF01 RNF04 | No desenvolvimento só seram utilizadas ferramentas suportadas pelos navegadores mais populares, não utilizar ferramentas como JAVA e outras que atualmente nas versões mais atuais dos navegadores não possui suporte. O site deverá ter layout pre-definidos pra telas de resoluções equivalentes a Desktop, Celular e Tablet |
+| Portabilidade | RNF01 RNF04 | No desenvolvimento só seram utilizadas ferramentas suportadas pelos navegadores mais populares, não utilizar ferramentas como JAVA e outras que atualmente nas versões mais atuais dos navegadores não possui suporte. O site deverá ter layout pre-definidos pra telas de resoluções equivalentes a Desktop, Celular e Tablet, para isso usaremos bootstrap, Javascript e CSS que ajudaram na responsividade da tela. |
 | Designer | RNF02 | Será utilizado as cores do instituto no Layout do site e suas logos |
 | Interoperabilidade | RNF03 | Será utilizado uma aplicação que enviara a mensagem escrita no sistema através de um email próprio do sistema para o email de um usuário ou grupo de usuários|
-
-
+| Segurança de Banco | RNF07 | Será utilizado um framework de comunicação com o banco que dará essa segurança ao sistema, como por exemplo Entity do C# |
+| Segurança de dados | RNF08 | Será usado protocolo Https com SSL |
 
 #### 2.1.3   Arquitetura de Software
 Foi decidido dividir o sistema em dois subsistema, o subsistema SubAluno onde os alunos teriam acesso a uma interface propria e  somente as informações necessarias para o mesmo e o controleAtividade onde somente os administradores teriam acesso a uma intercafe propria e as informações pertinentes aos mesmo, foi decidido reparoveitar o utilitarioPersistencias para evitar a reescrita de funções que seriam utilizada em ambos as fazendo somente uma vez. Foi utilizado o utilitarioEmail para de maneira a parte do sistema encaminhar as notificações escritas dentro do sistemas para os emails dos destinatarios das notificações
