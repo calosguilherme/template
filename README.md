@@ -118,7 +118,10 @@ Foi decidido dividir o sistema em dois subsistema, o subsistema SubAluno onde os
 OBS: repetir as seções abaixo para cada subsistema
 #### 2.2.1.   Projeto da Lógica de Negócio
 ##### Projeto do Domínio
-apresentar diagrama de classes do domínio
+Diagrama de Classe
+![Alt text](https://github.com/Cassianokunsch/template/blob/master/classe.jpg?raw=true "Modelo Conceitual")
+Diagrama de Projeto
+![Alt text](https://github.com/Cassianokunsch/template/blob/master/projeto.jpg?raw=true "Modelo Conceitual")
 ##### Projeto da Aplicação
 apresentar diagramas de sequência e mapeamento dos casos de uso para classes
 #### 2.2.2.  Projeto da Interface com Usuário
