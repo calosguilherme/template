@@ -103,10 +103,10 @@ O sistema será desenvolvido utilizando C#, Css, JavaScript e Bootstrap, essas f
  CATEGORIAS | RNF'S | TÁTICAS | 
 | --- | --- | --- |
 | Facilidade de Operação | RNF05 | Prover ao usuário a capacidade de entrar com comandos que permitam operar o sistema de modo mais eficiente. Para melhorar o tempo será feito um treinamento das funcionalidades| 
-| Segurança de Acesso| 	RNF06 | Identificar usuários usando login e autenticá-los por meio de senha. Dividir as permissões no sistema através de grupo de usuários|
+| Segurança de Acesso| 	RNF06 | Identificar usuários usando login e autenticá-los por meio de senha. Dividir as permissões no sistema através de dois grupos de usuários: Alunos e Administradores(Colegiado, Coordenador, Secretaria)|
 | Portabilidade | RNF01 RNF04 | No desenvolvimento só seram utilizadas ferramentas suportadas pelos navegadores mais populares, não utilizar ferramentas como JAVA e outras que atualmente nas versões mais atuais dos navegadores não possui suporte. O site deverá ter layout pre-definidos pra telas de resoluções equivalentes a Desktop, Celular e Tablet, para isso usaremos bootstrap, Javascript e CSS que ajudaram na responsividade da tela. |
 | Designer | RNF02 | Será utilizado as cores do instituto no Layout do site e suas logos |
-| Interoperabilidade | RNF03 | Será utilizado uma aplicação que enviara a mensagem escrita no sistema através de um email próprio do sistema para o email de um usuário ou grupo de usuários|
+| Interoperabilidade | RNF03 | O usuário irá escrever uma mensagem no sistema para um usuário ou grupo de usuários, o sistema usará de uma aplicação de correio eletrónico que irá pegar a mensagem digitada no sistema e irá enviar para o email referente ao usuário ou grupo de usuários destinatarios.|
 | Segurança de Banco | RNF07 | Será utilizado um framework de comunicação com o banco que dará essa segurança ao sistema, como por exemplo Entity do C# |
 | Segurança de dados | RNF08 | Será usado protocolo Https com SSL |
 
