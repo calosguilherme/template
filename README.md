@@ -60,10 +60,10 @@ Consultas sobre as atividades complementares podem ser feitas pela internet, tan
  | RNF02 | O sistema deve conter o logo da instituição, além de suas cores no seu layout | Could | Designer | Sistema |
  | RNF03 | O sistema deve estar integrado ao correio eletrônico para o aluno ser notificado via email de novas informações  | Could | Interoperabilidade | Funcionalidade |
  | RNF04 | O sistema deve ser responsivo para que possa ser acessado de aparelhos mobiles | Must | Portabilidade | Funcionalidade |
- | RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado deve ser inferior a trinta segundos, a partir da confirmação. | Must | Eficiência em relação ao tempo | Funcionalidade |
+ | RNF05 | O tempo para a realização das funções de lançamento de resultados por parte do colegiado(Inserção de dados) deve ser inferior a trinta segundos. | Must | Eficiência em relação ao tempo | Funcionalidade |
  | RNF06 | O sistema deve ter autenticação. |Must| Segurança de Acesso | Sistema |
  | RNF07 | O sistema deve evitar SQL injection . |Must| Segurança de Banco | Segurança |
- | RNF08 | O site deve assegurar a troca informações entre o sistema e os personas. |Must| Segurança de dados | Segurança |
+ | RNF08 | O site deve assegurar a troca informações entre o sistema e os personas não esteje acessivel para terceiros. |Must| Segurança de dados | Segurança |
 
 ### 4.3	Regras de Negócio
  | ID | Descrição | Prioridade | 
