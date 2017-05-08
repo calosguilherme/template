@@ -7,6 +7,7 @@ Trabalho desenvolvido durante as disciplinas de:
 
 **INTEGRANTES DO GRUPO:** 
 - Cassiano Kunsch
-- Carlos Guilherme F. Pedroni<br>
+- Carlos Guilherme F. Pedroni
+- Douglas Inacio<br>
 
 Link para documentação [Aqui](https://github.com/Cassianokunsch/template/wiki).
