@@ -17,7 +17,9 @@ namespace ATC.CONTROLEATIVIDADE.BLL.CGT
                 arquivo.Observacao = "Tudo certo";
                 arquivo.Aprovado = "APROVADO";
                 arquivo.CreditoAtividade = 5;
-                arquivo.enviarArquivo();ss
+
+                Avaliador ava = new Avaliador();
+                ava.enviarAvaliacao();
             }
             
         }

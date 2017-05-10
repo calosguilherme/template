@@ -11,5 +11,10 @@ namespace ATC.SUBALUNO.BLL.CDP
         public Avaliador()
         {
         }
+
+        public void enviarAvaliacao()
+        {
+            Console.WriteLine("Arquivo avaliado com sucesso");
+        }
     }
 }
