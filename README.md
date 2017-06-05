@@ -10,4 +10,4 @@ Trabalho desenvolvido durante as disciplinas de:
 - Carlos Guilherme F. Pedroni
 - Douglas Inacio<br>
 
-Link para documentação [Aqui](https://github.com/Cassianokunsch/template/wiki).
+Link para documentação [Aqui](https://github.com/calosguilherme/template/wiki).
