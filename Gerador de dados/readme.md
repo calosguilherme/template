@@ -1,6 +1,6 @@
 1º Importe a biblioteca java que se encontra em https://github.com/andygibson/datafactory para seu projeto
 
-2º Cole o código java disponibilizado a onde o print sugere
+2º Cole o código java disponibilizado a onde o print sugere ![Alt text](https://raw.githubusercontent.com/calosguilherme/template/master/Gerador%20de%20dados/javaprint.JPG?raw=true "Java")<br>
 
 3º Execute o código, comentando e removendo os comentarios referente a cada arquivo SQL
 
