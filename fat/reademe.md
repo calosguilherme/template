@@ -44,3 +44,21 @@
 			EXECUTE PROCEDURE valorminimoAtividade()
 			
 ##### [PRINTAQUI]<br>
+
+
+#### Asserção 1<br>
+   ##### -Essa asserção impede que os alunos solicitem creditos maior que a quantidade maxima que cada categoria permite, que no caso é 10.<br>
+   ##### -Asserção LIMITE_CREDITO<br>
+   
+			create assertion LIMITE_CREDITO check (not exists (select * from ARQUIVO where creditoAtividade>10);
+			
+##### [PRINTAQUI]<br>
+
+#### Asserção 2<br>
+   ##### -Essa asserção impede que os alunos solicitem creditos maior que a quantidade maxima que a Atividade pode concede.<br>
+   ##### -Asserção LIMITE_ATIVI<br>   
+
+			create assertion LIMITE_ATIVI check (not exists (select * from ARQUIVO inner join ATIVIDADE on ATIVIDADE.valorCredito where creditoAtividade>ATIVIDADE.valorCredito);
+			
+##### [PRINTAQUI]<br>
+
