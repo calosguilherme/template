@@ -1,10 +1,10 @@
 ### 3.5.4	LISTA DE CODIGOS DAS FUNÇÕES, ASSERÇOES E TRIGGERS<br>
 
 #### Trigger 1
-    -Essa trigger impede que o aluno envio uma solicitação com menos que 0 de creditos ou menos ou que o operador do sistema não altere por engano o valor para menor que 0
-    - Trigger valorminimoCredito
+   #####-Essa trigger impede que o aluno envio uma solicitação com menos que 0 de creditos ou menos ou que o operador do sistema não altere por engano o valor para menor que 0
+   #####-Trigger valorminimoCredito
 
-      CREATE FUNCTION valorminimoCredito() RETURNS TRIGGER AS '
+   			CREATE FUNCTION valorminimoCredito() RETURNS TRIGGER AS '
 			BEGIN
 			IF EXISTS (SELECT creditoAtividade from Arquivo
 					   where creditoAtividade < 0)
@@ -20,4 +20,4 @@
 			FOR EACH ROW
 			EXECUTE PROCEDURE valorminimoCredito()
 
-#####<PRINTAQUI>
+#####[PRINTAQUI]
