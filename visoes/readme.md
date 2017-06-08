@@ -20,4 +20,27 @@
 			FOR EACH ROW
 			EXECUTE PROCEDURE valorminimoCredito()
 
-#####[PRINTAQUI]
+##### [PRINTAQUI]<br>
+
+
+#### Trigger 2<br>
+   ##### -Essa trigger impede que o operador do sistema crie alguma atividade complementar com valor maximo de créditos menor ou igual a 0.<br>
+   ##### -Trigger valorminimoAtividade<br>
+   
+			CREATE FUNCTION valorminimoAtividade() RETURNS TRIGGER AS '
+			BEGIN
+			IF EXISTS (SELECT valorCredito from Atividade
+					   where valorCredito <= 0)
+			THEN
+			RAISE EXCEPTION ''Erro: A quantidade de creditos deve ser maior que zero '';
+			END IF;
+			RETURN NULL;
+			END
+			'
+			LANGUAGE plpgsql;
+			CREATE TRIGGER checkCredito
+			AFTER INSERT OR UPDATE OF valorCredito ON Atividade
+			FOR EACH ROW
+			EXECUTE PROCEDURE valorminimoAtividade()
+			
+##### [PRINTAQUI]<br>
