@@ -3,7 +3,7 @@
 #### Visão 1
  create view visao_resultados as select * from ARQUIVO where codaluno =36997;
 Exibi a situaçao de todos os arquivos que o aluno ja enviou, uma view estrategica, visto que não seria interessante deixar um aluno ter acesso do andamento das atividades de outros.<br>
-  Select * from visao_avaiador limit 10;<br>
+  Select * from visao_resultados limit 10;<br>
   ![Alt text](https://github.com/calosguilherme/template/blob/master/visoes/view-b.png?);
 
 
