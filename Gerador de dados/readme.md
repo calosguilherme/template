@@ -2,15 +2,18 @@
 
 2º Cole o código java disponibilizado a onde o print sugere ![Alt text](https://raw.githubusercontent.com/calosguilherme/template/master/Gerador%20de%20dados/javaprint.JPG?raw=true "Java")<br>
 
-3º Execute o código, comentando e removendo os comentarios referente a cada arquivo SQL
-[ADICIONA.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/adiciona.sql)<br>
+3º Execute o código, comentando e removendo os comentarios referente a cada arquivo SQL<br>
 [ATIVIDADE.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/atividade.sql)<br>
 [CATEGORIA.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/categoria.sql)<br>
 [PESSOA.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/pessoa.sql)<br>
 [ALUNO.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/aluno.sql)<br>
-[ARQUIVO1.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/arquivo1.rar)<br>
-[ARQUIVO2.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/arquivo2.rar)<br>
-[ARQUIVO3.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/arquivo3.rar)<br>
+[ARQUIVO.SQL](https://drive.google.com/file/d/0B368kTVySnPIdVFYeGxiUUh4ZDQ/view)<br>
+[PERMISSAO.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/permissao.sql)<br>
+[OBSERVACAO.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/observacao.sql)<br>
+[HISTORICO.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/historico.sql)<br>
+[ESTADO.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/estado.sql)<br>
+[CONTATO.SQL](https://github.com/calosguilherme/template/blob/master/Gerador%20de%20dados/contato.sql)<br>
+
 
 
 4º Repita o processo até ter rodado pelo menos uma vez cada parte do código referente a um arquivo
