@@ -20,7 +20,10 @@
 			FOR EACH ROW
 			EXECUTE PROCEDURE valorminimoCredito()
 
-##### [PRINTAQUI]<br>
+#####Tentando inserir o valor de -5 no valor do crédiro. a Trigger acima retorna mensagem de erro para valores negativos neste campo.
+INSERT into ATIVIDADE(codAtividade, valorCredito, anoRegistro, tipoAtividade, codCat, unidAvali, ativo)
+values (12, -5, '2012/01/01', 'Estágio extracurricular na instituição', 1, 'Semestre', True);
+
 
 
 #### Trigger 2<br>
