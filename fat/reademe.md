@@ -20,11 +20,7 @@
 			FOR EACH ROW
 			EXECUTE PROCEDURE valorminimoCredito()
 
-#####Tentando inserir o valor de -5 no valor do crédiro. a Trigger acima retorna mensagem de erro para valores negativos neste campo.
-INSERT into ATIVIDADE(codAtividade, valorCredito, anoRegistro, tipoAtividade, codCat, unidAvali, ativo)
-values (12, -5, '2012/01/01', 'Estágio extracurricular na instituição', 1, 'Semestre', True);
-
-
+#####
 
 #### Trigger 2<br>
    ##### -Essa trigger impede que o operador do sistema crie alguma atividade complementar com valor maximo de créditos menor ou igual a 0.<br>
@@ -46,8 +42,10 @@ values (12, -5, '2012/01/01', 'Estágio extracurricular na instituição', 1, 'S
 			FOR EACH ROW
 			EXECUTE PROCEDURE valorminimoAtividade()
 			
-##### [PRINTAQUI]<br>
-
+##### Tentando inserir o valor de -5 no valor do crédiro. a Trigger acima retorna mensagem de erro para valores negativos neste campo.<br>
+INSERT into ATIVIDADE(codAtividade, valorCredito, anoRegistro, tipoAtividade, codCat, unidAvali, ativo)
+values (12, -5, '2012/01/01', 'Estágio extracurricular na instituição', 1, 'Semestre', True);
+![Alt text](https://raw.githubusercontent.com/calosguilherme/template/master/exemplo1.png?raw=true "Pós Index")<br>
 
 #### Asserção 1<br>
    ##### -Essa asserção impede que os alunos solicitem creditos maior que a quantidade maxima que cada categoria permite, que no caso é 10.<br>
