@@ -51,19 +51,3 @@ INSERT into ATIVIDADE(codAtividade, valorCredito, anoRegistro, tipoAtividade, co
 values (12, -5, '2012/01/01', 'Estágio extracurricular na instituição', 1, 'Semestre', True);
 ![Alt text](https://raw.githubusercontent.com/calosguilherme/template/master/exemplo1.png?raw=true "Pós Index")<br>
 
-#### Asserção 1<br>
-   ##### -Essa asserção impede que os alunos solicitem creditos maior que a quantidade maxima que cada categoria permite, que no caso é 10.<br>
-   ##### -Asserção LIMITE_CREDITO<br>
-   
-			create LIMITE_CREDITO check (not exists (select * from ARQUIVO where creditoAtividade>10);
-			
-##### [PRINTAQUI]<br>
-
-#### Asserção 2<br>
-   ##### -Essa asserção impede que os alunos solicitem creditos maior que a quantidade maxima que a Atividade pode concede.<br>
-   ##### -Asserção LIMITE_ATIVI<br>   
-
-			create LIMITE_ATIVI check (not exists (select * from ARQUIVO inner join ATIVIDADE on ATIVIDADE.valorCredito where creditoAtividade>ATIVIDADE.valorCredito);
-			
-##### [PRINTAQUI]<br>
-
