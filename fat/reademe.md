@@ -20,7 +20,11 @@
 			FOR EACH ROW
 			EXECUTE PROCEDURE valorminimoCredito()
 
-#####
+#####Impedindo que aluno cadastre arquivos com valores negativos<br>
+
+INSERT INTO arquivo (creditoatividade, arquivodocumento, dtrealizada, codarquivo, codaluno, codatividade, codestado)
+VALUES (-2, 'asodijasoij.pdf', '2017-01-12', 1500002, 31957, 11,1)<br>
+![Alt text](https://raw.githubusercontent.com/calosguilherme/template/master/exemplo2.png?raw=true "Pós Index")<br>
 
 #### Trigger 2<br>
    ##### -Essa trigger impede que o operador do sistema crie alguma atividade complementar com valor maximo de créditos menor ou igual a 0.<br>
